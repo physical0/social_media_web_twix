@@ -27,12 +27,13 @@
 }
 
 .left .sidebar i .notification-count {
+    color:purple;
     font-size: 0.7rem;
     width: fit-content;
     padding: 0.1rem 0.4rem;
     position: absolute;
     top: -0.2rem;
-    right: -0.3rem;
+    right: -0.4rem;
 }
 
 .left .sidebar h3 {

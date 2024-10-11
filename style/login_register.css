@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     background-image: url(bg.png);
     background-size: 100%;
-    background-color: #ffffff77;
+    background-color: #16161650;
 }
 
 .login {
@@ -29,28 +29,13 @@ body {
 
 #typingText {
     width: 400px;
-    margin-right: 300px;
+    margin-right: 200px;
     font-size: 100px;
     font-weight: bolder;
-    color: #ad34e5;
+    color: #f0f0f0;
     text-align: center;
     text-shadow: #ffffff;
-}
-
-.loginArea {
-    width: 300px;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-.registerArea {
-    width: 300px;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    background-color: #621fae;
 }
 
 .login {
@@ -61,10 +46,20 @@ body {
     position: relative;
 }
 
-.registerArea {
+.login .loginArea {
+    margin-left: 50px;
+    margin-right:50px;
     width: 300px;
     padding: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.77);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.register .registerArea {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.77);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
