@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login for Twix</title>
+    <!-- IconScout CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style/login_register.css">
+</head>
+
+<body>
+    <div class="login">
+    <div id="typingText"></div>
+    <div class="loginArea">
+        <!-- Login Form -->
+        <h2>Login to Twix</h2>
+            
+            <form id="loginForm">
+            <label for="loginUsername">Username or Email:</label>
+            <input type="text" id="loginUsername" name="loginUsername" required>
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="loginPassword" required>
+            <button type="submit" id="loginButton">Login</button>
+            <p id="loginMessage"></p>
+        </form>
+        <p>Don't have an account yet? <a href="register.html"><br>Register Here</a></p>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>

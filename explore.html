@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore for Twix</title>
+    <!-- IconScout CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/explore.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/notification.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search for creators, inspirations, and projects">
+            </div>
+            <h2 class="logo">
+                <a href="index.html">Twix</a>
+            </h2>
+        </div>
+    </nav>
+
+    <main>
+        <div class="topics-header">
+            <h4>Topics</h4>
+        </div>
+        <div class="card-container">
+            <div class="card" data-topic="minecraft">
+                <img src="./assets/mc.jpg" alt="Topic Image">
+                <h3 class="card-title">Minecraft</h3>
+                <p class="card-description">Explore various tips and tricks for Minecraft.</p>
+            </div>
+            <div class="card" data-topic="youtube">
+                <img src="./assets/yt.jpg" alt="Topic Image">
+                <h3 class="card-title">Youtube</h3>
+                <p class="card-description">A community full of content creators.</p>
+            </div>
+            <div class="card" data-topic="life-tips">
+                <img src="./assets/life.jpg" alt="Topic Image">
+                <h3 class="card-title">Tips of Life</h3>
+                <p class="card-description">This card covers useful life tips.</p>
+            </div>
+        </div>
+
+        <div class="profile-tabs">
+            <ul class="tab-list">
+                <li class="tab-item active" data-tab="posts-tab">Posts</li>
+                <li class="tab-item" data-tab="comments-tab">Comments</li>
+            </ul>
+        </div>
+
+        <div class="tab-content">
+            <div id="posts-tab" class="tab active">
+                <div class="post">
+                    <!------------- POST 1 ------------->
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./assets/beaver.jpeg">
+                                </div>
+                                <div class="info">
+                                    <h3>Axel</h3>
+                                    <small>15 Minutes Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+
+                        <div class="caption">
+                            <p> Minecraft is a game where the limit is your imagination. There's nobody who can tell you what you can or can not do.</p>
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <p>Liked by <b>Ernest Achiever</b> and <b>2, 323 others</b></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 277 comments
+                        </div>
+                    </div>
+                    <br><br> <br>
+                    <!------------- POST 2 ------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./assets/beaver.jpeg">
+                                </div>
+                                <div class="info">
+                                    <h3>Axel</h3>
+                                    <small>15 Minutes Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+
+                        <div class="caption">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo reprehenderit
+                                pariatur itaque ea ut quo ipsum doloribus culpa architecto, tempora quisquam.
+                                Cumque ad maxime voluptate repellat voluptatibus ab harum culpa.Lorem ipsum
+                                dolor sit quisquam eius.
+                                <span class="harsh-tag">#lifestyle</span></p>
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <p>Liked by <b>Ernest Achiever</b> and <b>2, 323 others</b></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 277 comments
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="comments-tab" class="tab">
+                <div class="comment">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="explore.js"></script>
+</body>
+
+</html>
